@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    background-color: #010101;
+}
+
+#stories-list{
+    height:70vh;
+    overflow-y:scroll;
+}
+
+li {
+    background-color:white !important;
+    max-width:95vw !important;
+    border-radius: 5px !important;
+    height: 70px !important;
+}
+
+#logo-text{
+    font-family:Tahoma;
+    font-weight:bold;
+    color:white;
+}
+
+.loading-text{
+    color: darkgreen;
+    font-weight:bold;
+    text-align:center;
+    margin: 5px;
+    margin-right: 10px;
+}
+
+#stories-form{
+    color: white;
+    text-align: center;
+}
+
+#num-label{
+    margin-right: 5px;
+    font-family: Tahoma;
+    font-weight:bold;
+    color: white;
+}
+
+#num-input {
+    margin: 10px;
+    margin-right: 10px;
+}
